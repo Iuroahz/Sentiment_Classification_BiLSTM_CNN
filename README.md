@@ -1,6 +1,6 @@
 # Sentiment_Classification_BiLSTM_CNN
 Using emotional analysis to study the impact factors of customer product satisfaction can provide timely suggestions for product managers and improve the efficiency of product management. In this paper, we implement Bi-LSTM-CNN neural network models for text sentiment classification using GloVe and aim to investigate positive and negative attitudes towards Amazon product review datasets extracted from different domains. Then we analyse the performance of the proposed models with precision, recall, f-measure, and accuracy as compared to the baseline model. Experimental results indicate that multilayer of convolution extracts features are more efficient and prove that narrowing the category of data can increase correctness in terms of sentiment classification.
 
-##Datasets
+# Datasets
 https://snap.stanford.edu/data/web-Amazon.html
 Each review consists of a rating from 0 to 5, the reviews with a rating >3 are labelled positive, and those with a rating of <3 are labelled negative, and the rest are discarded because their polarity was ambiguous. After this conversion, we have 10000 positive and 10000 negative examples for each domain.  For the multi-domain data, we extracted 5000 positive and 5000 negative samples from the four single domains after shuffling. Finally, we got 4 single-domain datasets and 1 multi-domain dataset, so 20000 samples are for each. Among them, 16000 examples are for training and 4000 are for testing. In the dataset, 1 represents positive reviews and 0 represents negative reviews.
